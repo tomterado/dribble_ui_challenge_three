@@ -21,7 +21,7 @@ import {
     recommendationData
 } from "../globals"
 import { LinearGradient } from 'expo-linear-gradient';
-import {SearchBar} from "../components/SearchBar";
+import SearchBar from "../components/SearchBar";
 import FloatingMenu from "../components/FloatingMenu";
 
 
@@ -140,7 +140,7 @@ function HomeScreen({ navigation }) {
                 <ScrollView showsVerticalScrollIndicator={false}>
                     {navigationContent}
                     {hungryContent}
-                    {/*<SearchBar/>*/}
+                    <SearchBar/>
                     {categoriesRow}
                     {foodSelection}
                     {recommendSectionTitle}
